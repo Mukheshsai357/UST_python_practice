@@ -1,0 +1,12 @@
+string="ilearniexcel@gmail.com"
+print(string.find('@'))
+print(string[-4:])
+print(string[13:18])
+list1=string.split('@')
+print(list1)
+
+outputs :
+12
+.com
+gmail
+['ilearniexcel', 'gmail.com']
