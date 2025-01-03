@@ -61,7 +61,7 @@ while True:
             temp=items.index(item_and_quantity[0])
             item_price=values_of_items[temp]*item_and_quantity[1]
             total+=item_price
-            print(item_and_quantity[0],item_and_quantity[1],item_price)
+            print(item_and_quantity[0],item_and_quantity[1],values_of_items[temp],item_price)
         print("total_sum_of_items: "+total)
         break
     
