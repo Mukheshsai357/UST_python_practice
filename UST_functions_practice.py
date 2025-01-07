@@ -8,7 +8,7 @@ def total_trip_cost():
 print(total_trip_cost())
 
 def total_expenses():
-    n=int(input("Enter the number of items to be purchased"))
+    n=int(input("Enter the number of items to be purchased :"))
     total_cost=0
     for i in range(n):
         quantity=int(input("Enter the quantity: "))
