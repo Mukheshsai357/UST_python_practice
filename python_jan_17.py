@@ -70,7 +70,7 @@ class BankAccount():
             raise "No Sufficient amount in your BankAccount"
         
     def CalculateInterest(self):
-        intrest=(self.amount/self.__class__.ROI)*100-self.amount
+        intrest=(self.__class__.ROI/100)*self.amount
         print(f"The intrest would be {intrest}")
     def Display(self):
         print(f"The AccountHolder name is {self.name} and the amount in his bankaccount is {self.amount}")
